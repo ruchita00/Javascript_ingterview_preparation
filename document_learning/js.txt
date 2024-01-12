@@ -1,0 +1,48 @@
+basic of javascript
+
+1.variables
+let
+const
+var
+hoisting of variables
+
+2.functions
+arrow functions
+higher order functions 
+
+3.arrays and objects
+array destructing
+object destructing
+rest operator
+spread operator
+
+4.conditions in javascript
+if else
+ternary operator
+using && and || 
+optional chaining
+
+5.Array methods
+map()
+filter()
+reduce()
+sort()
+
+6.Event listerners
+onClick
+onBlur
+onChange
+onFocus
+setTimeout() & setInterval()
+event bubbling & capturing 
+
+7.Asynchronous Events
+Callbacks
+callback hell
+promises
+promise apis
+
+8.async await
+
+9.try catch
+
