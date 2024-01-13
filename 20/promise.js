@@ -121,3 +121,11 @@ createOrder(cart)
 //one more issue using callback : callback hell
 //we used promise chaining to handle that issue
 //used then to attched lot of callback handlers
+
+// Promise is an object represnting the eventually compilation or failure of async operation.
+// Advantages of promise:
+// 1.promises give us guarantee and trust whole transaction because promise resolved once
+// 2.promise also solve the issue of inversion fo control
+// 3.we can pass promise whenever we want without caring the mutability of it because promises is immutable
+// 4.promise also can solve the issue callback hell using promise chaining
+// 5.promise can also attached a lot of callback hanlders using then
