@@ -51,3 +51,27 @@ console.log(printMyName);
 printMyName();
 
 //bind method basically used to bind and keep copy of that method use it letter
+
+const Ruchita = {
+  firstName: "pinky",
+  lastName: "disoja",
+};
+
+let printName = function (hometown, state) {
+  console.log(`${this.firstName} ${this.lastName} from ${hometown} ${state}`);
+};
+
+const chiku = {
+  firstName: "Tina",
+  lastName: "hey",
+};
+
+printName.call(chiku, "pune", "maharashtra");
+printName.call(Ruchita, "kochi", "kerala");
+
+printName.apply(Ruchita, ["kochi", "kerala"]);
+printName.apply(chiku, ["pune", "maharashtra"]);
+
+let myBind = printFullName.bind(chiku, "Pune", "mahastra");
+console.log(myBind);
+myBind();
