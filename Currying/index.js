@@ -1,0 +1,23 @@
+//function currying using bind method
+let multiple = function (x, y) {
+  console.log(x * y);
+};
+
+let multiplyByTwo = multiple.bind(this, 2, 4);
+let multiplyByThree = multiple.bind(this, 3);
+multiplyByTwo();
+multiplyByThree(7);
+
+//this is function currying
+
+//function currying using closure
+
+let mutiply = function (x) {
+  return function (y) {
+    console.log(x * y);
+  };
+};
+
+let mul = mutiply(2);
+
+mul(5);
