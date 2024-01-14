@@ -21,3 +21,5 @@ let mutiply = function (x) {
 let mul = mutiply(2);
 
 mul(5);
+
+// currying is a technique in JavaScript that allows you to transform functions with multiple arguments into a sequence of functions, each taking one argument at a time. It promotes code reusability, composability, and flexibility.9 May 2023
